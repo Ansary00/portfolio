@@ -1,47 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Redwan Ansary | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>Hello, I'm Redwan Ansary</h1>
-    <p>Welcome to my portfolio website!</p>
-    <nav>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="skills">
-    <h2>Technical Skills</h2>
+<!-- NAV -->
+<header class="nav">
+    <div class="logo">Redwan.dev</div>
+
     <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python, C, C++</li>
-      <li>Git & GitHub</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
-  </section>
+</header>
 
-  <section id="projects">
+<!-- HERO -->
+<section id="home" class="hero">
+
+    <div class="hero-box">
+
+        <img src="profile.jpg.jpg" alt="Profile" class="avatar">
+
+        <h1>Redwan Ansary</h1>
+
+<p class="moving-text">
+    Welcome to my portfolio website!
+</p>
+
+        <div class="hero-btns">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="https://github.com/Ansary00" target="_blank" class="btn outline">GitHub</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            I am Redwan Ansary, a Computer Science & Engineering student at Varendra University.
+            I am passionate about software development, networking, algorithms, and modern web technologies.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section dark">
+    <h2>Skills</h2>
+
+    <div class="grid">
+
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Networking</div>
+        <div class="skill-card">Problem Solving</div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
     <h2>Projects</h2>
-    <div>
-      <h3>Project 1: Student Management System</h3>
-      <p>A simple app to manage student records.</p>
-      <p>Technologies: Python, SQLite</p>
-    </div>
-    <div>
-      <h3>Project 2: Personal Blog</h3>
-      <p>A blog site built with HTML & CSS.</p>
-    </div>
-  </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: ansaryredwan@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/Ansary00">Ansary00</a></p>
-  </section>
+    <div class="grid">
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>C++ based system for managing student records.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>VLAN Network Design</h3>
+            <p>Configured departmental network using VLAN concepts.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Modern responsive portfolio using HTML & CSS.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PHOTOGRAPHY-->
+
+<section id="photography" class="section dark">
+
+    <h2>Photography</h2>
+
+    <p class="subtext">
+        This is some of my captured moments and photography work.
+    </p>
+
+    <div class="gallery">
+
+        <img src="photo1.jpg.jpg" alt="photo1">
+        <img src="photo2.jpg.jpg" alt="photo2">
+        <img src="photo3.jpg.jpg" alt="photo3">
+        <img src="photo4.jpg.jpg" alt="photo4">
+        <img src="photo5.jpg.jpg" alt="photo5">
+        <img src="photo6.jpg.jpg" alt="photo6">
+        <img src="photo7.jpg.jpg" alt="photo7">
+        <img src="photo8.jpg.jpg" alt="photo8">
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact-container">
+
+        <!-- FORM -->
+        <div class="contact-box">
+
+            <h3>Send Message</h3>
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+
+        </div>
+
+        <!-- INFO -->
+        <div class="contact-box">
+
+            <h3>Contact Info</h3>
+
+            <div class="info-item">
+                <span>📞 Phone</span>
+                <p>01318219040</p>
+            </div>
+
+            <div class="info-item">
+                <span>📧 Email</span>
+                <p>232311238@vu.edu.bd</p>
+            </div>
+
+            <div class="info-item">
+                <span>💻 GitHub</span>
+                <p><a href="https://github.com/Ansary00" target="_blank">Ansary00</a></p>
+            </div>
+
+            <div class="info-item">
+                <span>📘 Facebook</span>
+                <p><a href="https://www.facebook.com/share/1BroMUX5ow/" target="_blank">Profile</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Redwan Ansary | CSE, Varendra University
+</footer>
+
 </body>
 </html>
