@@ -6,6 +6,7 @@ This is my personal portfolio website built with HTML and CSS.
 - Homepage introducing myself
 - Technical skills
 - Projects
+- Photography
 - Contact information
 
 ## Live Demo
